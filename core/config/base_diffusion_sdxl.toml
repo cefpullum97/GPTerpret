@@ -1,7 +1,6 @@
 ## utak atik
 
 no_metadata = true
-# num_repeats = 8
 async_upload = true
 bucket_no_upscale = true
 bucket_reso_steps = 64
@@ -11,7 +10,6 @@ caption_extension = ".txt"
 clip_skip = 1
 dynamo_backend = "no"
 enable_bucket = true
-# epoch = 2
 gradient_accumulation_steps = 4
 gradient_checkpointing = false
 huber_c = 0.05
@@ -32,7 +30,7 @@ max_data_loader_n_workers = 0
 max_grad_norm = 1
 max_timestep = 1000
 max_token_length = 128
-max_train_steps = 800
+max_train_steps = 650
 min_bucket_reso = 256
 min_snr_gamma = 7
 mixed_precision = "bf16"
